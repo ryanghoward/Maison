@@ -1,4 +1,6 @@
 import React from "react";
+import img from "../assets/house-banner.png";
+import Search from "./Search";
 
 const Banner = () => {
   return (
@@ -15,9 +17,10 @@ const Banner = () => {
           </p>
         </div>
         <div className='hidden flex-1 lg:flex justify-end items-end'>
-          {/* <img src='/' alt='/' /> */}
+          <img src={img} alt='/' />
         </div>
       </div>
+      <Search />
     </section>
   );
 };
