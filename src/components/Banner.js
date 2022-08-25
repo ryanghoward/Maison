@@ -12,7 +12,7 @@ const Banner = () => {
             Us
           </h1>
           <p className='max-w-[480px] mb-8'>
-            Poweful, self-serve product and growth analytics to help you
+            Powerful, self-serve product and growth analytics to help you
             convert, engage, and retain more.
           </p>
         </div>

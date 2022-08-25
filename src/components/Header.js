@@ -8,7 +8,7 @@ const Header = () => {
       <div className='container mx-auto flex justify-between items-center'>
         <Link to='/'>
           {/* <img src={logo} alt='logo' /> */}
-          <h1>Maison</h1>
+          <h1 className='text-5xl text-violet-900'>Maison</h1>
         </Link>
         <div className='flex items-center gap-6'>
           <Link className='hover:text-violet-900 transition' to='/'>
